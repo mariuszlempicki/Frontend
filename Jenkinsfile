@@ -22,7 +22,8 @@ pipeline {
         }
         stage('Clone Frontend repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/mariuszlempicki/Frontend.git'
+                // git branch: 'main', url: 'https://github.com/mariuszlempicki/Frontend.git'
+                checkout scm
             }
         }
         
