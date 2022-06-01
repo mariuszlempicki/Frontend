@@ -1,6 +1,6 @@
-def imageName="192.168.44.44:8082/docker_registry/frontend"
-def dockerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def imageName="mariuszlempicki/panda_frontend"
+def dockerRegistry=""
+def registryCredentials="dockerhub"
 def dockerTag=""
 
 
